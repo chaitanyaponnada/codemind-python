@@ -1,3 +1,3 @@
 a=int(input())
-z=3.14*a*a
-print(round(z,2))
+c=3.14*a*a
+print(round(c,2))
