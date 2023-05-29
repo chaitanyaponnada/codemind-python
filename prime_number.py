@@ -1,12 +1,11 @@
 n=int(input())
-
-prime=True
-
+c=0
 for i in range(2,n):
     if(n%i==0):
-        prime=False
-        break
-if(prime):
+        c=1
+if(c==0):
     print("prime")
 else:
     print("not a prime")
+
+        
