@@ -1,7 +1,5 @@
-s=int(input())
-c=[]
-for i in str(s):
-    c.append(i)
-
-
-print(max(c))
+n=input()
+l=[]
+for i in n:
+    l.append(int(i))
+print(max(l))
