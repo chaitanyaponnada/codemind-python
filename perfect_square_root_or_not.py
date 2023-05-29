@@ -1,7 +1,6 @@
 n=int(input())
-p=False
-for i in range(1,n+1):
+c=0
+for i in range(1,n):
     if(i*i==n):
-        p=True
-        break
-print(p)
+        c=1
+print(c==1)
