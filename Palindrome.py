@@ -1,3 +1,2 @@
 n=input()
-m=n[::-1]
-print(m==n)
+print(n[::]==n[::-1])
