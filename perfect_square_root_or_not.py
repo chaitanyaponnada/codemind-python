@@ -1,6 +1,9 @@
 n=int(input())
-c=0
+
+c=False
 for i in range(1,n):
     if(i*i==n):
-        c=1
-print(c==1)
+        c=True
+print(c)
+        
+
