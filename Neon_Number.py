@@ -1,10 +1,13 @@
 n=int(input())
-a=n*n
-s=0
-for i in str(a):
-    i=int(i)
-    s=s+i
-if(s==n):
+b=n*n
+b=str(b)
+s=[]
+for i in b:
+    s.append(i)
+c=0
+for j in s:
+    c=c+int(j)
+if(c==n):
     print("Neon Number")
 else:
     print("Not Neon Number")
