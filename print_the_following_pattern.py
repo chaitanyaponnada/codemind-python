@@ -1,9 +1,10 @@
 n=int(input())
-
-for i in range(n):
-    if i==0:
-        print("*")
-    elif(i==n-1):
-        print("*"*n)
-    else:
-        print("*"+" "*(i-1)+"*")
+for i in range(1,n+1):
+    s=""
+    for j in range(1,n+1):
+        if i==j:
+            s=s+"0"
+        else:
+            s=s+"x"
+    print(s)
+            
