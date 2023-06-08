@@ -1,9 +1,5 @@
 n=int(input())
-s=""
 for i in range(1,n+1):
-    if(i==1):
-        print("*")
-    elif(i==n):
-        print("*"*n)
-    else:
-        print("*"+" "*(i-2)+"*")
+    for j in range(n,0,-1):
+        print(str(j),end=" ")
+    print("")
