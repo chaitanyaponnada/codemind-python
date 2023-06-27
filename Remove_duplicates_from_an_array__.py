@@ -1,6 +1,4 @@
 n=int(input())
 a=list(map(int,input().split()))
-a=set(a)
-
-for i in a:
+for i in set(a):
     print(i,end=" ")
