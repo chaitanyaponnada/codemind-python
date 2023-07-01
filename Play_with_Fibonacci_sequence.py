@@ -1,0 +1,12 @@
+n=int(input())
+a=0
+b=1
+print(a,end=" ")
+print(b,end=" ")
+z=n-2
+while(z!=0):
+    c=a+b
+    print(c,end=" ")
+    a=b
+    b=c
+    z=z-1
