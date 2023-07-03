@@ -1,0 +1,5 @@
+n=input()
+a=int(n,8)
+# n=int(n)
+b=bin(a)
+print(b[2:])
