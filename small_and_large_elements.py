@@ -1,0 +1,6 @@
+n=input().split()
+z=len(n)
+a=sorted(n[0])
+b=sorted(n[z-1])
+x=len(b)
+print(a[0],b[x-1])
