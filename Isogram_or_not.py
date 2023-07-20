@@ -1,0 +1,5 @@
+n=input()
+n=list(n)
+x=set(n)
+x=list(x)
+print(sorted(x)==sorted(n))
