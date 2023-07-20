@@ -1,7 +1,9 @@
-a,b=map(int,input().split())
-c=0
-for i in range(a):
-    z=list(map(int,input().split()))
-    c=c+sum(z)
-print(c)
-    
+n,m=map(int,input().split())
+l=[]
+s=0
+for i in range(n):
+    a=input().split()
+    for i in a:
+        i=int(i)
+        s=s+int(i)
+print(s)
